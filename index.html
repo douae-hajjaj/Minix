@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Minix</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 id="song-title">Select a Song 🎧</h1>
+
+  <select id="song-select">
+    <option value="19">#19 - Aphex Twin</option>
+    <option value="bahr">Bahr - Mashrou' Leila</option>
+    <option value="belongtothecity">Belong to the City - Party Next Door</option>
+    <option value="bluecalx">Blue Calx - Aphex Twin</option>
+    <option value="breathofroma">Breath of Roma - Maryem AlBoulouafa</option>
+    <option value="breakfromtoronto">Break from Toronto - Party Next Door</option>
+    <option value="comfortinnending">Comfort Inn Ending - Jhené Aiko</option>
+    <option value="deeply">Deeply - Maryem AlBoulouafa</option>
+    <option value="dobetterblues">Do Better Blues - Jhené Aiko</option>
+    <option value="goingtocalifornia">Going to California - Led Zeppelin</option>
+    <option value="ivy">Ivy - Frank Ocean</option>
+    <option value="livingroomflow">Living Room Flow - Jhené Aiko</option>
+    <option value="seigfried">Seigfried - Frank Ocean</option>
+    <option value="shimelyasmine">Shim El Yasmine - Mashrou' Leila</option>
+    <option value="stayready">Stay Ready - Jhené Aiko</option>
+    <option value="stranger">Stranger - Jhené Aiko</option>
+    <option value="teenagefantasy">Teenage Fantasy - Jorja Smith</option>
+    <option value="tbh">TBH - Party Next Door</option>
+    <option value="whiteferrari">White Ferrari - Frank Ocean</option>
+    <option value="yumainoleila">Yumain o Leila - Jadal</option>
+  </select>
+
+  <br><br>
+  <img id="cover" src="covers/19.jpg" alt="Album Cover" />
+  <br><br>
+
+  <button id="play-btn" onclick="playPause()">▶</button>
+  <audio id="audio" src="songs/19.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
